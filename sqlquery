@@ -1,0 +1,24 @@
+CREATE TABLE details(
+    name varchar(50) NOT NULL,
+    id varchar(50) NOT NULL,
+    email varchar(50) NOT NULL,
+    phoneno varchar(50) NOT NULL,
+    nationality varchar(50) NOT NULL,
+    course varchar(50) NOT NULL,
+    dob varchar(50) NOT NULL
+)
+
+
+CREATE TABLE users (
+  user_name varchar(100) NOT NULL,
+  password varchar(100) NOT NULL
+ 
+)
+
+
+CREATE TABLE file (
+  file_name varchar(100) NOT NULL,
+  type varchar(100) NOT NULL,
+  size varchar(100) NOT NULL
+ 
+)
